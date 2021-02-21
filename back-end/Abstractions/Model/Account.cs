@@ -18,6 +18,12 @@ namespace Abstractions.Model
         /// <summary> Is user admin? </summary>
         public bool IsAdmin { get; set; }
 
+        /// <summary> Avatar url </summary>
+        public string AvatarURL { get; set; }
+
+        /// <summary> Account description</summary>
+        public string Description { get; set; }
+
         /// <summary> Entity version </summary>
         public long Version { get; set; }
     }
