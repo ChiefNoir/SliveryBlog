@@ -25,5 +25,14 @@ namespace Abstractions.API
         [HttpGet("tags/{name}")]
         public abstract Task<IActionResult> GetTag(string name);
 
+        [HttpGet("stories/{accountName}")]
+        public abstract Task<IActionResult> GetStories(string accountName);
+
+        [HttpGet("stories/{id}")]
+        public abstract Task<IActionResult> GetStory(long id);
+
+        [HttpGet("stories/latest")]
+        public abstract Task<IActionResult> GetStoriesLatest();
+
     }
 }
