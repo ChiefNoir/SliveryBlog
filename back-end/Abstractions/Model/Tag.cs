@@ -12,6 +12,9 @@ namespace Abstractions.Model
         /// <summary> Unique name </summary>
         public string Name { get; set; }
 
+        /// <summary> Is hub tag? </summary>
+        public bool IsHub { get; set; }
+
         /// <summary> Tag description </summary>
         public string Description { get; set; }
     }
