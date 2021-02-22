@@ -9,8 +9,8 @@ namespace Abstractions.Model
         /// <summary> Unique id or <c>null</c> if account is brand new </summary>
         public int? Id { get; set; }
 
-        /// <summary> Login </summary>
-        public string Login { get; set; }
+        /// <summary> Name </summary>
+        public string Name { get; set; }
 
         /// <summary> Password as a hex string </summary>
         public string Password { get; set; }
