@@ -27,7 +27,7 @@ namespace Abstractions.Model
         /// <summary> List of <see cref="Tag"/>s</summary>
         public List<Tag> Tags { get; set; }
 
-        /// <summary> <see cref="Account"/> wich created story </summary>
+        /// <summary> <see cref="Account"/> which created story </summary>
         public Account Author { get; set; }
     }
 }
