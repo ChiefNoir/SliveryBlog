@@ -21,6 +21,9 @@ namespace Abstractions.Model
         /// <summary> Subtitle </summary>
         public string SubTitle { get; set; }
 
+        /// <summary> Description </summary>
+        public string Description { get; set; }
+
         /// <summary> Content </summary>
         public StringBuilder Content { get; set; }
 

@@ -17,5 +17,8 @@ namespace Abstractions.Model
 
         /// <summary> Tag description </summary>
         public string Description { get; set; }
+
+        /// <summary> Amount of <seealso cref="Story"/> entities with current tag </summary>
+        public int Count { get; set; }
     }
 }
